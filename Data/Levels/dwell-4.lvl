@@ -1,0 +1,410 @@
+// ------------------------------
+// JumpLunky
+// ------------------------------
+
+\-back_room_chance                       0          // % chance of a second room (default = 6%)
+\-back_room_interconnection_chance       0          // % chance of a second room interconnection (default = 20%)
+\-back_room_hidden_door_chance           0          // 1/N chance of a hidden door (default = 500)
+\-back_room_hidden_door_cache_chance     0          // 1/N chance of a hidden door to a cache (default = 1000)
+\-mount_chance                           0          // 1/N chance of a mount (default = 5000)
+\-altar_room_chance                      0          // 1/N chance of an altar room (default = 14)
+\-idol_room_chance                       0          // 1/N chance of an idol room (default = 10)
+\-floor_side_spread_chance               0          // 1/N chance of a spreadable floor spreading to its side (default = 10)
+\-floor_bottom_spread_chance             0          // 1/N chance of a spreadable floor spreading to its bottom (default = 5)
+\-size                                   6 4
+
+\?empty                            0
+\?floor                            1
+\?minewood_floor                   =
+\?entrance                         E
+\?exit                             e
+\?spikes                           ^
+\?arrow_trap                       A
+\?platform                         p
+\?bat_generator                    B
+\?bat_switch                       b
+\?lizard                           h
+\?totem_trap                       t
+\?ladder                           L
+\?ladder_plat                      P
+\?moving_totem                     M
+\?totem_switch                     g
+\?idol_reward                      Q
+\?dialog_block                     R
+\?telescope_right                  j
+\?floor_hard                       X
+\?bat                              !
+\?mole                             "
+\?scorpion                         #
+\?caveman                          $
+\?caveman_asleep                   %
+\?skeleton                         &
+\?turkey                           '
+\?spring_trap                      (
+\?upsidedown_spikes                )
+\?litwalltorch                     *
+\?push_block                       +
+\?thorn_vine                       ,
+\?snake                            -
+\?door                             .
+\?cookfire                         2
+\?bush_block                       4
+\?bone_block                       5
+\?robot                            3
+\?water                            6
+\?falling_platform                 7
+\?treasure_chest                   8
+\?slidingwall_switch               ;
+\?littorch                         <
+\?rock                             >
+\?conveyorbelt_left                ?
+\?conveyorbelt_right               @
+\?forcefield                       C
+\?forcefield_horizontal            D
+\?forcefield_top                   F
+\?forcefield_horizontal_top        G
+\?timed_forcefield                 H
+\?key                              I
+\?pot                              J
+\?skull                            K
+\?fountain_drain                   N
+\?powder_keg                       S
+\?door2                            T
+\?door2_secret                     U
+\?locked_door                      V
+\?torch                            O
+\?arrow                            Z
+\?autowalltorch                    W
+\?spider_hanging                   Y
+\?sleeping_bat                     [
+\?cavemanboss                      9
+\?switchable_quillback             ]
+\?quillback_stun_switch            a
+\?quillback_jump_switch            c
+\?camera                           d
+\?crushtrap                        f
+\?infinite_quillback               i
+\?honey_upwards                    :
+\?death_block                      _
+\?mega_quillback_jump_switch       `
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0_0   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+X111111111
+1111111111
+1111111111
+1100011111
+110]011111
+1111111111
+XXX1111111
+XXX1111111
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0_1   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+1111111111
+1111111111
+1111111111
+1100000001
+110$2$00T0
+1111111111
+1111111111
+1111111111
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0_2   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+1111111111
+1000111111
+10*0011111
+100*01100+
+10*E00+011
+11111XX0XX
+11111XXXXX
+11111XXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0_3   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+1111111111
+1111111111
+1110000011
+0000000011
+000000*c11
+0000000011
+1111111111
+XXXXXXX111
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0_4   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+1XX0000000
+1XX0000000
+1110000000
+1110000000
+1117000000
+1110000000
+110*c*0X00
+0000000X00
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0_5   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+XXXXXXXXXX
+0XXXXXXXXX
+00XXXXXXXX
+000XXXXXXX
+0000XXXXXX
+0000$XXXXX
+0000XXXXXX
+0000XXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1_0   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+XXXXXXXXXX X444XXXXXX
+XXXXXXXXXX XXXXXXXXXX
+XXXXXXXXXX XXX4XXXXXX
+XXXXXXXXXX X4X4XXXXXX
+XXXXXXXXXX X4XXXXXXXX
+XXXXXXXXXX XX04XXXXXX
+XXXXXXXXXX XXXXXXXX0X
+XXXXXXXXXX XXXXXXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1_1   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1_2   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXX0
+XXXXXXXXXi
+XXXXXXXXX0
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1_3   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+X111111110
+X1111111*0
+X111111*00
+X1*11111*0
+XX*XXXXXXX
+00*00X0000
+00000Xi000
+0000000000
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1_4   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+0000000XXX
+000000*111
+*000000111
+L00>>>0111
+XXXXXXX___
+000000X:$:
+000000X111
+000000X011
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1_5   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+XXXXXXXXXX
+111100000X
+111100000X
+111100000X
+__0000000X
+000000000X
+000001111X
+111000000X
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom2_0   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+XXXXXXXXXX XX0XXXXXXX
+XXXXXXXXXX XXXXXXXX0X
+XXXXXXXXXX XXXXXXX00*
+XXXXXXXXXX XXXXXXX000
+XXXXXXXXXX XXXXXXX000
+XXXXXXXXXX XXXXXXXX0X
+XXXXXXXXXX XXXXXXXX(X
+XXXXXXXXXX XXXXXXXXpX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom2_1   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+XXXXXXXXXX XXXXXXXXXX
+XXXX000000 XXXXXXXXXX
+XX00000000 0*XXXXXXXX
+XX000*0000 T0XXXXXXXX
+XX00000000 XXXXXXXXXX
+XX000000e0 XXXXXXXXXX
+XXX1111p1p XXXXXXXXXX
+XXX1111111 XXXXXXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom2_2   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+XXXXXXXXXX XXXXXXXXXX
+000XXXXXXX XXXXXXXXXX
+00000XXXXX XXXXXXXX,X
+0*000XXXXX XXXXXXXX,0
+00000XXXXX XXXXXXXX,X
+00000XXXXX XXXXXXXXXX
+1111XXXXXX XXXXXXXXXX
+11111111XX XXXXXXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom2_3   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+00000XXXpp X,XXXXXXXX
+^^X^^XXX00 XXXXX,XXXX
+XXXXXXXXXX XXXXXXXXXX
+XXXXXXXXXX TXXXX0,,,X
+XXXXXXXXXX XXXXXXXXXX
+XX000000XX XXXXXXXXXX
+XX000000XX XXXXXXXXXX
+XX001100XX XXXXXXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom2_4   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+XXXXX0X000
+X0i00pX000
+X00000X011
+X00000X000
+XpppppX1$0
+000000X110
+0i0000X010
+000000X000
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom2_5   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+0020110XXX
+0011011XXX
+1111100XXX
+00:::::XXX
+0010111XXX
+0111100XXX
+0101100XXX
+0000111XXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom3_0   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+XXXXXXXXXX XXXXXXXX0X
+XXXXXXXXX0 XXXXXXXX(X
+XXXXXXXXX0 XXXXXXXXpX
+XXXXXXXXX0 XXXXXXXX0X
+XXXXXXXXXX XXXXXXXXTX
+XXXXXXXXXX XXXXXXXX0X
+XXXXXXXXXX XXXXXXXX(X
+XXXXXXXXXX XXXXXXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom3_1   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+XXX11100(0
+00X00000p0
+`0X0000000
+0000000000
+XXX000000(
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom3_2   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+0111110000 XXXXXXXXXX
+0000000XXX XXXXXXXXXX
+*000000XXX XXXXX^XXXX
+0000000X00 XXXXXXXXXX
+XX00000000 XXXXXXXXXX
+XXXX000000 XXXXXXXXXX
+XXXXXXXX00 XXXXXXXXXX
+XXXXXXXXXX XXXXXXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom3_3   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+00001100XX
+XXXX11001X
+XXXX11(011
+000X11p000
+000X110000
+0000110000
+000111(000
+XXXXXXX___
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom3_4   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+X0X0X0X011
+X0XXXXX010
+X0X0000111
+00X01010::
+0110010011
+011:::::01
+000XXXXXXX
+___XXXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom3_5   // cave
+////////////////////////////////////////////////////////////////////////////////
+
+1000000XXX
+0100111XXX
+1011111XXX
+::01XXXXXX
+1111XXXXXX
+1000XXXXXX
+XXXXXXXXXX
+XXXXXXXXXX

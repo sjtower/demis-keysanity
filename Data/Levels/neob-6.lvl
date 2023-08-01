@@ -1,0 +1,196 @@
+\-altar_room_chance                      0
+\-back_room_chance                       0
+\-back_room_hidden_door_cache_chance     0
+\-back_room_hidden_door_chance           0
+\-back_room_interconnection_chance       0
+\-background_chance                      0
+\-flagged_liquid_rooms                   0
+\-floor_bottom_spread_chance             0
+\-floor_side_spread_chance               0
+\-ground_background_chance               0
+\-idol_room_chance                       0
+\-machine_bigroom_chance                 0
+\-machine_rewardroom_chance              0
+\-machine_tallroom_chance                0
+\-machine_wideroom_chance                0
+\-max_liquid_particles                   0
+\-mount_chance                           0
+\-size                                   3 3
+
+\?floor                            1
+\?empty                            0
+\?floor_hard                       X
+\?entrance                         !
+\?stone_floor                      "
+\?exit                             #
+\?babylon_floor                    $
+\?ufo                              %
+\?litwalltorch                     &
+\?checkpoint                       '
+\?platform                         )
+\?laser_trap                       (
+\?spark_trap                       *
+\?forcefield                       +
+\?forcefield_top                   ,
+\?powder_keg                       -
+\?upsidedown_spikes                .
+\?spring_trap                      2
+\?palace_candle                    3
+\?key_block                        4
+\?block_key                        5
+\?death_block                      6
+\?timed_door_switch                7
+\?timed_door                       8
+\?timed_forcefield                 9
+\?elevator                         :
+\?olmite                           ;
+\?lamassu                          <
+\?door2                            =
+\?horizontal_ufo                   >
+\?palace_table_tray                ?
+\?lava                             @
+\?falling_platform                 A
+\?rock                             B
+\?robot                            C
+\?pagoda_platform                  D
+\?death_elevator                   E
+\?arrow_trap                       F
+\?bone_block                       G
+\?thorn_vine                       H
+\?forcefield_horizontal            I
+\?forcefield_horizontal_top        J
+\?turkey                           K
+\?regenerating_block               L
+\?push_block                       M
+\?totem_trap                       N
+\?parachute                        O
+\?alienqueen                       P
+\?locked_door                      Q
+\?key                              R
+\?ladder                           S
+\?monster_generator                T
+\?monster_switch                   U
+\?sign                             V
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0_0   // babylon
+////////////////////////////////////////////////////////////////////////////////
+
+$$$$$$$$$$
+$$$$$$$$$$
+$$$$$$$$$$
+$$$$$$$XXX
+$$$$$$XX00
+$$$$$$X000
+$$$$$$X000
+$$$$$$XP00
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0_1   // babylon
+////////////////////////////////////////////////////////////////////////////////
+
+$$$$$$$$$$
+$$$$$$$$$$
+$$$$$$$$$$
+X00000000T
+X000000000
+X0&00000&0
+X000000000
+X000000000
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0_2   // babylon
+////////////////////////////////////////////////////////////////////////////////
+
+$$$$$$$$$$
+$$$$$$$B$$
+$$$$$$$0$$
+XXXX$$$U$$
+X00XX$$$$$
+X000X$$$$$
+X000X$$$$$
+XP00X$$$$$
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1_0   // babylon
+////////////////////////////////////////////////////////////////////////////////
+
+$$$$$$XXXX
+$$$$$$$X00
+$$$$$$$X00
+$$$$$$$X00
+$$$$$$XXXX
+$$$$$$X000
+$$$$$$X000
+$$$$$$XP00
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1_1   // babylon
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+X002000200 XXXXXXXXXX
+X00X000X00 XXXXXXXXXX
+XSSX000XSS XXXXXXXXXX
+I0SJPR2IS0 XXXXXXXXXX
+X0SXXXXXS0 XXXXXXXXXX
+I0S00000S0 XXXXXX$$$$
+X0S00000S0 XXXXX*$000
+X000V!00Q0 XXX$$$$0=0
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1_2   // babylon
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+XXXXX$$$$$ XXXXXXXXXX
+X00X$$$$$$ XXXXXXXXXX
+X00X$$$$$$ XXXXXXXXXX
+J00X$$$$$$ XXXXXXXXXX
+XXXXX$$$$$ XXXXXXXXXX
+J000X$$$$$ $XXXXXXXXX
+X000X$$$$$ $XXXXXXXXX
+XP00X$$$$$ $XXXXXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom2_0   // babylon
+////////////////////////////////////////////////////////////////////////////////
+
+$$$$$$XXXX
+$$$$$$$$$$
+$$$$$$$$$$
+$$$$$$$$$$
+$$$$$$$$$$
+$$$$$$$$$$
+$0$$$$$$$$
+$0$$$$$$$$
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom2_1   // babylon
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+XXXXXXXXXX XXX$000000
+$$$$$$$$$$ XXX$0000&0
+$$$$$$$$$$ XXX$0&0$$$
+$$$$0=0$$$ XXX$0=0$*X
+$$$0&0&0$$ XXX$$$$$XX
+$$$00#00$$ XXXXXXXXXX
+$$$0$$$0$$ XXXXXXXXXX
+$$$$$$$$$$ XXXXXXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom2_2   // babylon
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+XXXXX$$$$$ $XXXXXXXXX
+$$$$$$$$$$ $XXXXXXXXX
+$$$$$$$$$$ $XXXXXXXXX
+$$$$$$$$$$ XXXXXXXXXX
+$$$$$$$$$$ XXXXXXXXXX
+$$$$$$$$$$ XXXXXXXXXX
+$$$$$$$$$$ XXXXXXXXXX
+$$$$$$$$$$ XXXXXXXXXX

@@ -1,0 +1,315 @@
+\-altar_room_chance                      0
+\-back_room_chance                       0
+\-back_room_hidden_door_cache_chance     0
+\-back_room_hidden_door_chance           0
+\-back_room_interconnection_chance       0
+\-background_chance                      0
+\-flagged_liquid_rooms                   0
+\-floor_bottom_spread_chance             0
+\-floor_side_spread_chance               0
+\-ground_background_chance               0
+\-idol_room_chance                       0
+\-machine_bigroom_chance                 0
+\-machine_rewardroom_chance              0
+\-machine_tallroom_chance                0
+\-machine_wideroom_chance                0
+\-max_liquid_particles                   0
+\-mount_chance                           0
+\-size                                   3 3
+
+\?floor                            1
+\?empty                            0
+\?floor_hard                       X
+\?entrance                         !
+\?firefrog                         "
+\?giantfly                         #
+\?arrow_trap                       %
+\?sunken_arrow_trap                $
+\?sunken_floor                     &
+\?bone_block                       '
+\?sticky_trap                      (
+\?regenerating_block               )
+\?bigspear_trap                    *
+\?pipe                             +
+\?lava                             ,
+\?ladder                           -
+\?litwalltorch                     .
+\?powder_keg                       2
+\?conveyorbelt_left                3
+\?conveyorbelt_right               4
+\?spikes                           5
+\?falling_platform                 6
+\?eggsac                           7
+\?right_sunken_arrow_trap          8
+\?left_sunken_arrow_trap           9
+\?ladder_plat                      :
+\?rock                             ;
+\?checkpoint                       <
+\?quicksand                        ?
+\?thorn_vine                       @
+\?forcefield                       A
+\?mother_statue                    B
+\?push_block                       C
+\?death_block                      E
+\?pagoda_platform                  F
+\?skull_drop_trap                  G
+\?forcefield_horizontal            H
+\?forcefield_horizontal_top        I
+\?laser_trap                       J
+\?spring_trap                      K
+\?exit                             L
+\?spikeball_trap                   M
+\?spark_trap                       N
+\?locked_door                      =
+\?door2                            >
+\?key                              D
+\?spring_shoes                     O
+\?spike_shoes                      P
+\?climbing_gloves                  Q
+\?pitchers_mitt                    R
+\?vlads_cape                       S
+\?bush_block                       T
+\?autowalltorch                    U
+\?ammit                            W
+\?jetpack                          Y
+\?water                            Z
+\?frog                             [
+\?tadpole                          ]
+\?minister                         V
+\?timed_door                       ^
+\?timed_door_switch                _
+\?block_key                        `
+\?key_block                        a
+\?upsidedown_spikes                b
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0_0   // eggplant
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+1111111111 XXXXXXXXXX
+111111`000 X000XXXXXX
+1111114444 XXXXXXXXXX
+11111111.0 XXXXXXXXXX
+1111000000 XXXXXXXXXX
+1110000000 X0XXXXXXXX
+1100.00000 XXXXXXXXXX
+1000000000 XXXXXXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0-0   // Auto-generated template to match the front layer of setroom0_0.
+////////////////////////////////////////////////////////////////////////////////
+
+1111111111
+111111`000
+1111114444
+11111111.0
+1111000000
+1110000000
+1100.00000
+1000000000
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0_1   // eggplant
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+1111111111 XXXXXXXX@X
+0000000000 XXXXXXXXXX
+4444444444 XXXXXXXXXX
+0.11111111 XXXX0XXXXX
+!000001111 XXXXXXXXXX
+Y000000111 XXXXXXXXXX
+60000.0011 XXXXXXXXXX
+0000000001 XXXX0XXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0-1   // Auto-generated template to match the front layer of setroom0_1.
+////////////////////////////////////////////////////////////////////////////////
+
+1111111111
+0000000000
+4444444444
+0.11111111
+!000001111
+Y000000111
+60000.0011
+0000000001
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0_2   // eggplant
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+1111111111 @@XXX0@XXX
+0000000000 XXXXXXXXXX
+444444444? XXXXXXXXXX
+0000000000 XXXXXXXXXX
+?333333333 XXXXXXXXXX
+0000011111 XXXXXXX0XX
+4444011111 XXXXXXXXXX
+0000011111 XXXXXXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0-2   // Auto-generated template to match the front layer of setroom0_2.
+////////////////////////////////////////////////////////////////////////////////
+
+1111111111
+0000000000
+444444444?
+0000000000
+?333333333
+0000011111
+4444011111
+0000011111
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1_0   // eggplant
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+1000000000 XXXXXXXXXX
+1000000000 XXXXXXXXX0
+1000000000 XXXXXXXXXX
+1000000000 XXXXXXXXXX
+10V000V000 XX@XXXXXXX
+1060006000 XXXXXXXXXX
+1555555555 @XXXXXXXXX
+1111111111 @XXXXXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1-0   // Auto-generated template to match the front layer of setroom1_0.
+////////////////////////////////////////////////////////////////////////////////
+
+1000000000
+1000000000
+1000000000
+1000000000
+10V000V000
+1060006000
+1555555555
+1111111111
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1_1   // eggplant
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+0000000001 XXXXXXXXXX
+0000000001 XXXXXXXX@X
+0000000001 XXXXX0XXXX
+0000000001 XXXXXXXXXX
+V0000V00.1 XXXXXXXXXX
+600006000a XXXXXXXXXX
+5555555551 XXXXXXXXXX
+1111111111 XXXX0XXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1-1   // Auto-generated template to match the front layer of setroom1_1.
+////////////////////////////////////////////////////////////////////////////////
+
+0000000001
+0000000001
+0000000001
+0000000001
+V0000V00.1
+600006000a
+5555555551
+1111111111
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1_2   // eggplant
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+?333311111 XXXXXXXXXX
+0111111111 XXXXXXXXXX
+0111111111 XXXXXXXXXX
+0111111111 XXXXXXXXXX
+0111111111 XXXXXXXXXX
+00b1111111 0XXXXXXXXX
+310bbbbbb1 XXXXXXXXXX
+1100000L01 XXXXXXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1-2   // Auto-generated template to match the front layer of setroom1_2.
+////////////////////////////////////////////////////////////////////////////////
+
+?333311111
+0111111111
+0111111111
+0111111111
+0111111111
+00b1111111
+310bbbbbb1
+1100000L01
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom2_0   // eggplant
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+1111111111 @@XXXXXXXX
+1111111111 XX@XXXXXXX
+1100000000 XXXXX0XXXX
+110&&&&&&& XXXX@XX0XX
+110&&&&&&0 XXXX@XXXXX
+110&&&&&&0 XXXXXXXXXX
+110&&&&&&0 XXXX0XXXXX
+110&&&&&&0 XXXXXXX@XX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom2_1   // eggplant
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+1111111111 X0XXXXXXXX
+1111111111 XXXXXXXXXX
+000@&&&@@1 XXXXXXXXXX
+&&0@0000&1 XXXXXX@XXX
+000&&0@001 XXXXXXX0XX
+@@@@00@&@@ XXXXXX@XXX
+@0000&&&&0 XXXXXXXXXX
+@@@&&00000 @XXXXXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom2_2   // eggplant
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+11000.0601 XXXXXXXXXX
+1155555551 XXXXXXXXXX
+1111111111 0XXXXXXXXX
+1111111111 XXXXXXXXXX
+1111111111 XXXXXXXXXX
+@&&&&0&&&& XXXXXXXXXX
+&&&&&0&&&& XXXXXXXXXX
+&&&000&&&& XXXXXXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0-3   // Auto-generated template to match the front layer of setroom0_3.
+////////////////////////////////////////////////////////////////////////////////
+
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1-3   // Auto-generated template to match the front layer of setroom1_3.
+////////////////////////////////////////////////////////////////////////////////
+
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000

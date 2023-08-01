@@ -1,0 +1,323 @@
+// ------------------------------
+// JumpLunky
+// ------------------------------
+
+\-back_room_chance                       0          // % chance of a second room (default = 6%)
+\-back_room_interconnection_chance       0          // % chance of a second room interconnection (default = 20%)
+\-back_room_hidden_door_chance           0          // 1/N chance of a hidden door (default = 500)
+\-back_room_hidden_door_cache_chance     0          // 1/N chance of a hidden door to a cache (default = 1000)
+\-mount_chance                           0          // 1/N chance of a mount (default = 5000)
+\-altar_room_chance                      0          // 1/N chance of an altar room (default = 14)
+\-idol_room_chance                       0          // 1/N chance of an idol room (default = 10)
+\-floor_side_spread_chance               0          // 1/N chance of a spreadable floor spreading to its side (default = 10)
+\-floor_bottom_spread_chance             0          // 1/N chance of a spreadable floor spreading to its bottom (default = 5)
+\-size                                   4 4
+
+\?empty                            0
+\?floor                            1
+\?minewood_floor                   =
+\?entrance                         E
+\?exit                             e
+\?spikes                           ^
+\?arrow_trap                       A
+\?platform                         p
+\?bat_generator                    B
+\?bat_switch                       b
+\?lizard                           h
+\?totem_trap                       t
+\?ladder                           L
+\?ladder_plat                      P
+\?moving_totem                     M
+\?totem_switch                     g
+\?idol_reward                      Q
+\?dialog_block                     R
+\?telescope_right                  j
+\?floor_hard                       X
+\?bat                              !
+\?mole                             "
+\?scorpion                         #
+\?caveman                          $
+\?caveman_asleep                   %
+\?skeleton                         &
+\?turkey                           '
+\?spring_trap                      (
+\?upsidedown_spikes                )
+\?litwalltorch                     *
+\?push_block                       +
+\?thorn_vine                       ,
+\?snake                            -
+\?door                             .
+\?cookfire                         2
+\?bush_block                       4
+\?bone_block                       5
+\?robot                            3
+\?water                            6
+\?falling_platform                 7
+\?treasure_chest                   8
+\?slidingwall_switch               ;
+\?littorch                         <
+\?rock                             >
+\?conveyorbelt_left                ?
+\?conveyorbelt_right               @
+\?forcefield                       C
+\?forcefield_horizontal            D
+\?forcefield_top                   F
+\?forcefield_horizontal_top        G
+\?timed_forcefield                 H
+\?key                              I
+\?pot                              J
+\?skull                            K
+\?fountain_drain                   N
+\?powder_keg                       S
+\?door2                            T
+\?door2_secret                     U
+\?locked_door                      V
+\?torch                            O
+\?arrow                            Z
+\?autowalltorch                    W
+\?spider_hanging                   Y
+\?sleeping_bat                     [
+\?cavemanboss                      9
+\?switchable_quillback             ]
+\?quillback_jump_switch            c
+\?camera                           d
+\?crushtrap                        f
+\?infinite_quillback               i
+\?landmine                         :
+\?lava                             _
+\?honey_upwards                    `
+\?stone_floor                      a
+\?jungle_spear_trap                k
+\?vine                             l
+\?growable_vine                    m
+\?mantrap                          n
+\?witchdoctor                      o
+\?bigspear_trap                    q
+\?checkpoint                       r
+\?checkpoint_key                   s
+\?sign                             u
+\?key_block                        v
+\?block_key                        w
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0_0   // jungle
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+1k1111111k XXXXXXXXXX
+1l00kkk000 XXXXXXXXXX
+1lk71000k1 XXXXXXXXXX
+1lk0k01k11 X000000000
+1lk00*0111 X*e*000XXX
+10k1kk0000 X0p000XXXX
+10000k1kk0 X%200XXXXX
+1kkk*01100 XXXXXXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0_1   // jungle
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+11k1111kk0 XXXXXXXXXX
+0*000k000r XXXXXXXXXX
+k71k0k0kka XXXXXXXXXX
+1011k10110 0000000000
+101k00(110 XXXXXXXXXX
+k01k00k110 XXXXXXXXXX
+07k1k00110 XXXXXXXXXX
+k000q00010 XXXXXXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0_2   // jungle
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+0+00000aa1 lXXXXXXXXX
+0+r0n00Ia1 lXXXXXXXX0
+0a111k0aak lXXXXXXXX0
+*01T0v*1T0 lk0T0n0nT*
+001a1111a1 lXXXXk*kXX
+00kw0T100T lXXXXT0n0T
+n01a0*00kk lXXXXXXXXX
+5011111111 lXXXXX0kkk
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0_3   // jungle
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+1111111111 0n0XX00nXX
+111110n0T1 0*00X0k*TX
+11k110k1a1 kXk0X0XXXX
+n50T0n1n0T 0XXT0*000T
+111a11k11a XXXkkk0kkk
+0100Tn0nT1 XXXXT0*0TX
+n001a1P1a1 XXXXXXkXXX
+111100Ln*1 kkkk0XXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1_0   // jungle
+////////////////////////////////////////////////////////////////////////////////
+
+111k0kk00k
+11100kk000
+k11k001k01
+l00k0k11k1
+lk00011111
+l111k11100
+000000+000
+00000u5*00
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1_1   // jungle
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+k0k1kkk010 XXXXXXXXXX
+0700000010 XXXXXXXXXX
+1k0k00k010 XXXXXXXXXX
+1111kk1110 XXXXXXXXXX
+1111111100 XXXXXXXXXX
+k0k0000k00 XXXXXXXXX0
+0+000*0000 XXXXXXXX0*
+0+00*000k0 XXXXXXXq00
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1_2   // jungle
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+5u00q000T0 lXXXXX*0T+
+5aa00001a1 lXXXXXXXXX
+501kkkk111 lXXXXXXXXX
+501111111+ lXXXXXXXXX
+500111111+ lXXXXXXXXX
+500k000005 00XXXXXXXX
+5000000005 0*0XXXXXXX
+V0k0000005 T0q0kkkkXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1_3   // jungle
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+n0Tn0k1111 00T0*XXXXX
+11a1111111 0XXXXXXXXX
+1111aaaaaa XXXXXXXXXX
+1111a0000a XXXXXXXXXX
+1111a*0*aa XXXXXXXXXX
+000100E0a1 XXXXXXXXXX
+0*000aaaa1 XXXXXXXXXX
+0000011111 XXXXXXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom2_0   // jungle
+////////////////////////////////////////////////////////////////////////////////
+
+700000k000
+7000000000
+^^^00000^^
+111^^^^^11
+1111111111
+1111111111
+1111111111
+1111111111
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom2_1   // jungle
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+0kk00*0k00 XXXXXXXq00
+k^^^000000 XXXXXXXXXk
+^111^^^^^^ XXXXXXXXXk
+1111111111 XXXXXXXXXk
+1111111111 XXXXXXXkkk
+1111111111 XXXXXXXkl0
+1111111111 XXXXXXXkl0
+1111111111 XXXXXXXk0t
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom2_2   // jungle
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+000k00000k 00q0000*kX
++000000000 0kk000k0kX
+^^0000k00^ 0k00kt00kX
+11^^^^^^^1 *00kkk0kXX
+1111111111 kkkk000kXX
+1111111111 0lX0pkkXXX
+1111111111 0lk*p00kkk
+1111111k00 t0kkkk0400
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom2_3   // jungle
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+00k0011111 XXXXXXXXXX
+0000011111 XXXXXXXXXX
+^^^^^11111 XXXXXXXXXX
+1111111111 XXXXXXXXXX
+1111111111 XXXXXXXXXX
+11k00q0111 XX000q0XXX
+1k00*q0111 kk*0*q0XXX
+00+T0q0111 000T0q0XXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom3_0   // jungle
+////////////////////////////////////////////////////////////////////////////////
+
+1111111111
+1111111111
+1111111111
+1111111111
+1111111111
+1111111111
+1111111111
+1111111111
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom3_1   // jungle
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+1111111111 Xk000000*q
+1111111111 Xk0kkkkkkX
+1111111111 Xk0k0000kk
+1111111111 Xk*00q0*00
+1111111111 XXkkkXXXXX
+1111111111 XXXXXXXXXX
+1111111111 XXXXXXXXXX
+1111111111 XXXXXXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom3_2   // jungle
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+1111q0*0+0 0*0000*k0k
+1111q00epk XXXXXXXk00
+111111^^^1 kkkkkkkkkk
+1111111+11 0000000000
+1111111111 XXXXXXXXXk
+1111111111 XXXXXXXXXX
+1111111111 XXXXXXXXXX
+1111111111 XXXXXXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom3_3   // jungle
+////////////////////////////////////////////////////////////////////////////////
+
+\!dual
+00k1111111 kkXXXXXXXX
+k111111111 00XXXXXXXX
+1111111111 0kXXXXXXXX
+1111111111 *00qXXXXXX
+1111111111 kkXXXXXXXX
+1111111111 XXXXXXXXXX
+1111111111 XXXXXXXXXX
+1111111111 XXXXXXXXXX
