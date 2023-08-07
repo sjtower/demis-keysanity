@@ -9,12 +9,12 @@ define_tile_code("moving_totem")
 define_tile_code("totem_switch")
 
 local dwelling1 = {
-    identifier = "dwelling1",
-    title = "Dwelling 1: Bounce Zoo",
+    identifier = "test",
+    title = "Test",
     theme = THEME.DWELLING,
     width = 2,
     height = 2,
-    file_name = "dwell-1.lvl",
+    file_name = "test.lvl",
     world = 1,
     level = 1,
 }

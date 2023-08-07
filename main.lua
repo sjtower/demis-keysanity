@@ -10,6 +10,7 @@ local level_sequence = require("LevelSequence/level_sequence")
 local SIGN_TYPE = level_sequence.SIGN_TYPE
 local save_state = require('save_state')
 
+local test = require("test")
 local dwelling1 = require("dwelling1")
 local dwelling2 = require("dwelling2")
 local dwelling3 = require("dwelling3")
@@ -54,7 +55,7 @@ local sunkencity5 = require("sunkencity5")
 local sunkencity6 = require("sunkencity6")
 
 local levels = {
-	dwelling1, dwelling2, dwelling3, dwelling4, dwelling5, dwelling6,
+	test, dwelling1, dwelling2, dwelling3, dwelling4, dwelling5, dwelling6,
 	jungle1, jungle2, jungle3, jungle4, jungle5, jungle6,
 	volcana1, volcana2, volcana3, volcana4, volcana5, volcana6,
 	tidepool1, tidepool2, tidepool3, tidepool4, tidepool5, tidepool6,

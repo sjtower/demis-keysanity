@@ -53,8 +53,14 @@ Demi's Keysanity
 - drop a chained door onto PB
 - mounted caveman runs across gaps
 - pickaxe crush blocks coming at you
+- pickaxe elevators coming from below
 - elevator + forcefileds
 - enemies bouncing on orbs (robot, snek)
+- Push Block on a conveyor, Falling Platforms act as gates. Need to build up a couple blocks
+- dodge enemies by enetering dead-end pipes
+- forcefields that turn on when you go left / right of them
+- pushable forcefields? (or spring traps, spikes, etc.)
+- bomb frog on sticky trap
 
 - key escort/puzzles
     - key is bouncing back and forth
