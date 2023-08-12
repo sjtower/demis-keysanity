@@ -2,7 +2,7 @@
 set_post_entity_spawn(function(ent, flags)
     ent.flags = set_flag(ent.flags, ENT_FLAG.DEAD)
     ent:destroy()
-end, SPAWN_TYPE.LEVEL_GEN_GENERAL, 0, ENT_TYPE.MONS_SKELETON, ENT_TYPE.MONS_BAT, ENT_TYPE.MONS_SCARAB)
+end, SPAWN_TYPE.LEVEL_GEN_GENERAL, 0, ENT_TYPE.MONS_SKELETON, ENT_TYPE.MONS_BAT, ENT_TYPE.MONS_SCARAB, ENT_TYPE.ITEM_SKULL)
 
 -- destroy treasure, random pots
 set_post_entity_spawn(function(ent, flags)

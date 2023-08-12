@@ -2,19 +2,19 @@ local locked_exits = {}
 local exit_keys = {}
 local key_blocks = {}
 
+local texture_definition = TextureDefinition.new()
+texture_definition.width = 128
+texture_definition.height = 128
+texture_definition.tile_width = 128
+texture_definition.tile_height = 128
+local function locked_door_texture() 
+    texture_definition.texture_path = f'Textures/locked_door_1.png'
+    local active_texture = define_texture(texture_definition)
+    return active_texture
+end
+
+
 local function activate(level_state)
-
-    local texture_definition = TextureDefinition.new()
-    texture_definition.width = 128
-    texture_definition.height = 128
-    texture_definition.tile_width = 128
-    texture_definition.tile_height = 128
-    local function locked_door_texture() 
-        texture_definition.texture_path = f'Textures/locked_door_1.png'
-        local active_texture = define_texture(texture_definition)
-        return active_texture
-    end
-
     
     define_tile_code("locked_exit")
     level_state.callbacks[#level_state.callbacks+1] = set_pre_tile_code_callback(function(x, y, layer)
@@ -45,7 +45,7 @@ local function activate(level_state)
 
     define_tile_code("exit_key")
     level_state.callbacks[#level_state.callbacks+1] = set_pre_tile_code_callback(function(x, y, layer)
-        local uid = spawn_entity(ENT_TYPE.ITEM_LOCKEDCHEST_KEY, x, y, layer, 0, 0)
+        local uid = spawn_entity(ENT_TYPE.ITEM_KEY, x, y, layer, 0, 0)
         local key = get_entity(uid)
         key.color = Color:white()
         exit_keys[#exit_keys + 1] = get_entity(uid)
