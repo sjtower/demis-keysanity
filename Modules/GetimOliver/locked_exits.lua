@@ -1,49 +1,21 @@
-local nocrap = require("Modules.Dregu.no_crap")
-
-local texture_definition = TextureDefinition.new()
-texture_definition.width = 128
-texture_definition.height = 128
-texture_definition.tile_width = 128
-texture_definition.tile_height = 128
-local function locked_door_texture()
-    
-    texture_definition.texture_path = f'Textures/locked_door_1.png'
-    local active_texture = define_texture(texture_definition)
-    return active_texture
-end
-
-local dwelling1 = {
-    identifier = "test",
-    title = "Test",
-    theme = THEME.DWELLING,
-    width = 2,
-    height = 2,
-    file_name = "test.lvl",
-    world = 1,
-    level = 1,
-}
-
-local level_state = {
-    loaded = false,
-    callbacks = {},
-}
 local locked_exits = {}
 local exit_keys = {}
 local key_blocks = {}
 
-dwelling1.load_level = function()
-    if level_state.loaded then return end
-    level_state.loaded = true
+local function activate(level_state)
 
-    -- fix camera to center of stage (2x2 only)
-    level_state.callbacks[#level_state.callbacks+1] = set_callback(function() 
-        if #players < 1 then return end
+    local texture_definition = TextureDefinition.new()
+    texture_definition.width = 128
+    texture_definition.height = 128
+    texture_definition.tile_width = 128
+    texture_definition.tile_height = 128
+    local function locked_door_texture() 
+        texture_definition.texture_path = f'Textures/locked_door_1.png'
+        local active_texture = define_texture(texture_definition)
+        return active_texture
+    end
 
-        state.camera.adjusted_focus_x = 12.5
-        state.camera.adjusted_focus_y = 114.5
-
-    end, ON.FRAME)
-
+    
     define_tile_code("locked_exit")
     level_state.callbacks[#level_state.callbacks+1] = set_pre_tile_code_callback(function(x, y, layer)
         local exit_uid = spawn_entity(ENT_TYPE.BG_DOOR, x, y, layer, 0, 0)
@@ -71,12 +43,11 @@ dwelling1.load_level = function()
         return true
     end, "locked_exit")
 
-
     define_tile_code("exit_key")
     level_state.callbacks[#level_state.callbacks+1] = set_pre_tile_code_callback(function(x, y, layer)
-        local uid = spawn_entity(ENT_TYPE.ITEM_KEY, x, y, layer, 0, 0)
+        local uid = spawn_entity(ENT_TYPE.ITEM_LOCKEDCHEST_KEY, x, y, layer, 0, 0)
         local key = get_entity(uid)
-        key.color = Color:red()
+        key.color = Color:white()
         exit_keys[#exit_keys + 1] = get_entity(uid)
         set_pre_collision2(key.uid, function(self, collision_entity)
             for _, exit_key_block in ipairs(key_blocks) do
@@ -92,26 +63,15 @@ dwelling1.load_level = function()
         end)
         return true
     end, "exit_key")
-
-    level_state.callbacks[#level_state.callbacks+1] = set_post_entity_spawn(function(entity, spawn_flags)
-		entity:destroy()
-	end, SPAWN_TYPE.SYSTEMIC, 0, ENT_TYPE.ITEM_SKULL)
-
 end
 
-dwelling1.unload_level = function()
-    if not level_state.loaded then return end
-
+local function deactivate()
     locked_exits = {}
     exit_keys = {}
     key_blocks = {}
-
-    local callbacks_to_clear = level_state.callbacks
-    level_state.loaded = false
-    level_state.callbacks = {}
-    for _,callback in ipairs(callbacks_to_clear) do
-        clear_callback(callback)
-    end
 end
 
-return dwelling1
+return {
+    activate = activate,
+    deactivate = deactivate
+}

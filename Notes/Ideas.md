@@ -32,6 +32,7 @@ Demi's Keysanity
 - trigger other side of totem trap to pass falling plat?
 - climb spider webs
 - web gun to make bridges / ladders
+- fall down column of webs avoiding arrow traps
 - fall down tree pit - hang low on trees to drop
 - guide skeeters into webs
 - sacrifice certain number of bodies
