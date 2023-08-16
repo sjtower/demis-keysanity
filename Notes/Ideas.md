@@ -20,28 +20,49 @@ Demi's Keysanity
     - static camera (can zoom out? or be larger than shown?)
 - watch Mario version for ideas
 
+## New tiles - rough priority order
+
+### Really want
+
+- forcefields that turn on when you go left / right of them (block breaks that was covering FF)
+- one way walls
+- one way platforms
+- pushable forcefields? (or spring traps, spikes, etc.)
+- player-only blocks & no-player blocks
+
+### Kinda want
+
+- cursed key - phanto enemy?
+- cursed key - heats up as you hold it
 - warp spots
 - switch that shoots a rope
+- add custom textures to current mods (timed blocks & on/off blocks)
+
+### Can live without
+
 - springs / launchers that apply force to bomb
 - timed jetpack explodes after awhile
-- race dog / caveman
-- pot / eggy escort
-- break the pots!
+- break the pots! (death timer & pot counter)
 - angled spring pads
 - switch that toggles full water submersion
-- trigger other side of totem trap to pass falling plat?
-- climb spider webs
-- web gun to make bridges / ladders
-- fall down column of webs avoiding arrow traps
-- fall down tree pit - hang low on trees to drop
-- guide skeeters into webs
 - sacrifice certain number of bodies
-- drop enemies to bounce off of
-- throw mine at enemy in air (ufo?)
+- collect blood to pass
 - water gun
-- cursed key - phanto enemy?
 - bow that shoots arrows that stay in walls for a long time
 - timed lights on and off
+- tile that changes music
+
+## Rooms
+
+- trigger other side of totem trap to pass falling plat? - DONE
+- fall down column of webs avoiding arrow traps - DONE
+- web gun to make bridges / ladders
+- climb spider webs
+- fall down tree pit - hang low on tree to drop
+- guide skeeters into webs
+
+- drop enemies to bounce off of
+- throw mine at enemy in air (ufo?)
 - bat escort
 - jetpack pick jumps
 - dog escort
@@ -50,7 +71,7 @@ Demi's Keysanity
 - spring boots jump from under ledge on rope
 - PB to ease stupid jump
 - whip lava on a FP, lava stays on but grab side
-- collect blood to pass
+
 - drop a chained door onto PB
 - mounted caveman runs across gaps
 - pickaxe crush blocks coming at you
@@ -59,9 +80,8 @@ Demi's Keysanity
 - enemies bouncing on orbs (robot, snek)
 - Push Block on a conveyor, Falling Platforms act as gates. Need to build up a couple blocks
 - dodge enemies by enetering dead-end pipes
-- forcefields that turn on when you go left / right of them
-- pushable forcefields? (or spring traps, spikes, etc.)
 - bomb frog on sticky trap
+
 
 - key escort/puzzles
     - key is bouncing back and forth
