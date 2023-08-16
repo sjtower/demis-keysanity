@@ -37,6 +37,7 @@ Demi's Keysanity
 - warp spots
 - switch that shoots a rope
 - add custom textures to current mods (timed blocks & on/off blocks)
+- money gates
 
 ### Can live without
 
