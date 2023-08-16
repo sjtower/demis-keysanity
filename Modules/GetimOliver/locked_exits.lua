@@ -8,7 +8,7 @@ texture_definition.height = 128
 texture_definition.tile_width = 128
 texture_definition.tile_height = 128
 local function locked_door_texture() 
-    texture_definition.texture_path = f'Textures/locked_door_1.png'
+    texture_definition.texture_path = f'Modules/GetimOliver/Textures/locked_door_1.png'
     local active_texture = define_texture(texture_definition)
     return active_texture
 end

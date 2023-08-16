@@ -8,13 +8,13 @@ texture_definition.tile_width = 128
 texture_definition.tile_height = 128
 
 local function one_way_right_texture() 
-    texture_definition.texture_path = f'Textures/one_way_right.png'
+    texture_definition.texture_path = f'Modules/GetimOliver/Textures/one_way_right.png'
     local active_texture = define_texture(texture_definition)
     return active_texture
 end
 
 local function one_way_left_texture() 
-    texture_definition.texture_path = f'Textures/one_way_left.png'
+    texture_definition.texture_path = f'Modules/GetimOliver/Textures/one_way_left.png'
     local active_texture = define_texture(texture_definition)
     return active_texture
 end
