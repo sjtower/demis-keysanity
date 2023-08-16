@@ -1,6 +1,7 @@
 local nocrap = require("Modules.Dregu.no_crap")
 local locked_exits = require("Modules.GetimOliver.locked_exits")
 local fixed_camera = require("Modules.GetimOliver.fixed_camera")
+local breaking_blocks = require("Modules.GetimOliver.breaking_blocks")
 
 local dwelling1 = {
     identifier = "test",
@@ -28,6 +29,7 @@ dwelling1.load_level = function()
 
     fixed_camera.activate(level_state)
     locked_exits.activate(level_state)
+    breaking_blocks.activate(level_state)
 
 end
 
@@ -35,6 +37,7 @@ dwelling1.unload_level = function()
     if not level_state.loaded then return end
 
     locked_exits.deactivate()
+    breaking_blocks.deactivate()
 
     local callbacks_to_clear = level_state.callbacks
     level_state.loaded = false
