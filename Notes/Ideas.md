@@ -25,10 +25,11 @@ Demi's Keysanity
 ### Really want
 
 - forcefields that turn on when you go left / right of them (block breaks that was covering FF) - DONE
-- one way walls
+- one way walls - DONE
 - one way platforms
 - pushable forcefields? (or spring traps, spikes, etc.)
-- player-only blocks & no-player blocks
+- player-only blocks - DONE
+- no-player blocks
 
 ### Kinda want
 

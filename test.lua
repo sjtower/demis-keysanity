@@ -3,6 +3,8 @@ local locked_exits = require("Modules.GetimOliver.locked_exits")
 local fixed_camera = require("Modules.GetimOliver.fixed_camera")
 local breaking_blocks = require("Modules.GetimOliver.breaking_blocks")
 local one_way_walls = require("Modules.GetimOliver.one_way_walls")
+local player_only_blocks = require("Modules.GetimOliver.player_only_blocks")
+local dustwalls = require("Modules.Dregu.dustwalls")
 
 local dwelling1 = {
     identifier = "test",
@@ -32,6 +34,7 @@ dwelling1.load_level = function()
     locked_exits.activate(level_state)
     breaking_blocks.activate(level_state)
     one_way_walls.activate(level_state)
+    player_only_blocks.activate(level_state)
 
 end
 
@@ -41,6 +44,7 @@ dwelling1.unload_level = function()
     locked_exits.deactivate()
     breaking_blocks.deactivate()
     one_way_walls.deactivate()
+    player_only_blocks.deactivate()
 
     local callbacks_to_clear = level_state.callbacks
     level_state.loaded = false
