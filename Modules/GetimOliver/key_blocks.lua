@@ -1,6 +1,17 @@
 local key_blocks = {}
 local block_keys = {}
 
+local texture_definition = TextureDefinition.new()
+texture_definition.width = 128
+texture_definition.height = 128
+texture_definition.tile_width = 128
+texture_definition.tile_height = 128
+local function locked_block_texture() 
+    texture_definition.texture_path = f'Modules/GetimOliver/Textures/locked_block.png'
+    local active_texture = define_texture(texture_definition)
+    return active_texture
+end
+
 local function activate(level_state)
     
     define_tile_code("key_block")
@@ -8,6 +19,7 @@ local function activate(level_state)
         local ent_uid = spawn_entity(ENT_TYPE.ACTIVEFLOOR_PUSHBLOCK, x, y, layer, 0, 0)
         local ent = get_entity(ent_uid)
         ent.color = Color:yellow()
+        ent:set_texture(locked_block_texture())
         ent.flags = set_flag(ent.flags, ENT_FLAG.NO_GRAVITY)
         ent.more_flags = set_flag(ent.more_flags, ENT_MORE_FLAG.DISABLE_INPUT)
         key_blocks[#key_blocks + 1] = get_entity(ent_uid)
