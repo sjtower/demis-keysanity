@@ -17,7 +17,7 @@ Done:
 Demi's Keysanity
 
 - Series of one-screen puzzle & challenge levels
-    - static camera (can zoom out? or be larger than shown?)
+  - static camera (can zoom out? or be larger than shown?)
 - watch Mario version for ideas
 
 ## New tiles - rough priority order
@@ -25,20 +25,20 @@ Demi's Keysanity
 ### Really want
 
 - forcefields that turn on when you go left / right of them (block breaks that was covering FF) - DONE
+- add custom textures to current mods (timed blocks & on/off blocks)
 - one way walls - DONE
 - one way platforms
-- pushable forcefields? (or spring traps, spikes, etc.)
 - player-only blocks - DONE
 - no-player blocks
+- money gates
 
 ### Kinda want
 
+- pushable forcefields? (or spring traps, spikes, etc.)
 - cursed key - phanto enemy?
 - cursed key - heats up as you hold it
 - warp spots
 - switch that shoots a rope
-- add custom textures to current mods (timed blocks & on/off blocks)
-- money gates
 
 ### Can live without
 
@@ -56,15 +56,19 @@ Demi's Keysanity
 
 ## Rooms
 
+### Really want rooms
+
 - trigger other side of totem trap to pass falling plat? - DONE
 - fall down column of webs avoiding arrow traps - DONE
-- web gun to make bridges / ladders
-- climb spider webs
 - fall down tree pit - hang low on tree to drop
-- guide skeeters into webs
+- climbing gloves, drop next to spring and sneak past it
+- trigger olmite stomp onto lower, taller olmite stack
+
+### Kinda Want
 
 - drop enemies to bounce off of
 - throw mine at enemy in air (ufo?)
+- orb turns fish
 - bat escort
 - jetpack pick jumps
 - dog escort
@@ -74,6 +78,9 @@ Demi's Keysanity
 - PB to ease stupid jump
 - whip lava on a FP, lava stays on but grab side
 
+- web gun to make bridges / ladders
+- climb spider webs
+- guide skeeters into webs
 - drop a chained door onto PB
 - mounted caveman runs across gaps
 - pickaxe crush blocks coming at you
@@ -84,11 +91,10 @@ Demi's Keysanity
 - dodge enemies by enetering dead-end pipes
 - bomb frog on sticky trap
 
-
 - key escort/puzzles
-    - key is bouncing back and forth
-    - whip out of the air
-    - throw item at it
+  - key is bouncing back and forth
+  - whip out of the air
+  - throw item at it
 - TNT explodes slowly over time and player dodges shrapnel (rocks)
 - timed bomb throws - walls, enemies
 - ropes
@@ -98,7 +104,7 @@ Demi's Keysanity
 - ropes that burn when you touch them
 - Spend all your monry (shops - have to do math) w/ ghost
 - Guide cat to enemey who has 99999 HP in order to murder
-    - throw cursed pots
+  - throw cursed pots
 - jetpack that explodes after awhile
 - colored keys/doors
 - mattock level
@@ -133,7 +139,6 @@ DONE
 - COllect gold while ghost chases you level (Twiggle Level)
 - jungle: claustrophopic climbing gloves / thorns lvl
 - sorceress barrage (like fish)
-
 
 # Obstacles
 
