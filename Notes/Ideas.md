@@ -27,10 +27,10 @@ Demi's Keysanity
 - forcefields that turn on when you go left / right of them (block breaks that was covering FF) - DONE
 - add custom textures to current mods (timed blocks & on/off blocks)
 - one way walls - DONE
-- one way platforms
+- one way platforms - DONE
 - player-only blocks - DONE
-- no-player blocks
-- money gates
+- no-player blocks - DONE
+- money gates - DONE
 
 ### Kinda want
 
